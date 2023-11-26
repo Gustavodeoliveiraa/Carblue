@@ -1,12 +1,15 @@
 package com.example.mecanica
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.LinearLayout
+import android.widget.Button
+import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class home : AppCompatActivity() {
     private lateinit var bottomNavigationView: BottomNavigationView
+    private lateinit var addclientebutton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,12 +20,15 @@ class home : AppCompatActivity() {
         bottomNavigationView.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.home -> {
-                    println("home")
+                    val home = Intent(this, home::class.java)
+                    startActivity(home)
                     true
                 }
                 R.id.exit -> {
-                    println("sair")
+                    val exit = Intent(this, MainActivity::class.java)
+                    startActivity(exit)
                     true
+
                 }
                 R.id.settings -> {
                     println("settings")
@@ -33,5 +39,19 @@ class home : AppCompatActivity() {
                 else -> false
             }
         }
+
+//        addcliente
+        addclientebutton = findViewById(R.id.addclienteclick)
+        addclientebutton.setOnClickListener{
+            replaceFragment(Telacadastrocliente())
+        }
+    }
+
+    private fun replaceFragment(fragment: Fragment) {
+        val fragmentManager = supportFragmentManager
+        val transaction = fragmentManager.beginTransaction()
+        transaction.replace(R.id.seuConteinerDeFragment, fragment)
+        transaction.addToBackStack(null) //
+        transaction.commit()
     }
 }

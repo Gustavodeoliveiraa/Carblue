@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginBottom="25dp"
+            android:layout_marginBottom="80dp"
             >
 
             <ImageView
@@ -44,10 +44,12 @@
         </LinearLayout>
 
         <!-- Segundo LinearLayout abaixo do primeiro -->
+
         <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/seuConteinerDeFragment"
             android:layout_width="match_parent"
-            android:paddingTop="60dp"
+            android:paddingTop="80dp"
             android:layout_height="500dp"
             android:layout_margin="10dp"
             android:columnCount="3"
@@ -56,6 +58,7 @@
             tools:context=".MainActivity">
 
             <Button
+                android:id="@+id/addclienteclick"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
@@ -67,6 +70,7 @@
                 android:elevation="4dp"/>
 
             <Button
+                android:id="@+id/esttoque"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
@@ -79,6 +83,7 @@
                 android:background="@drawable/relatorioestoque" />
 
             <Button
+                android:id="@+id/getEstoque"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
@@ -90,6 +95,7 @@
 
 
             <Button
+                android:id="@+id/addcar"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
@@ -101,6 +107,7 @@
 
 
             <Button
+                android:id="@+id/controleCaixa"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
@@ -114,6 +121,7 @@
 
 
             <Button
+                android:id="@+id/descServico"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
@@ -125,6 +133,7 @@
 
 
             <Button
+                android:id="@+id/addFuncionario"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
@@ -136,6 +145,7 @@
 
 
             <Button
+                android:id="@+id/produtividade"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
@@ -149,6 +159,7 @@
 
 
             <Button
+                android:id="@+id/avaliacao"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
@@ -160,7 +171,6 @@
                 android:background="@drawable/avaliacao" />
 
         </GridLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
