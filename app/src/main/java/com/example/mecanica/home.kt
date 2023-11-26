@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.LinearLayout
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
@@ -43,15 +44,21 @@ class home : AppCompatActivity() {
 //        addcliente
         addclientebutton = findViewById(R.id.addclienteclick)
         addclientebutton.setOnClickListener{
-            replaceFragment(Telacadastrocliente())
+            replaceFragment(fragment = telacadastrocliente())
         }
     }
-
     private fun replaceFragment(fragment: Fragment) {
         val fragmentManager = supportFragmentManager
         val transaction = fragmentManager.beginTransaction()
+
+        // Remove o fragmento anterior, se existir
+        fragmentManager.findFragmentById(R.id.seuConteinerDeFragment)?.let {
+            transaction.remove(it)
+        }
+
+        // Substitui o fragmento atual
         transaction.replace(R.id.seuConteinerDeFragment, fragment)
-        transaction.addToBackStack(null) //
+        transaction.addToBackStack(null)
         transaction.commit()
     }
 }
