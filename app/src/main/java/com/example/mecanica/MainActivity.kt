@@ -1,6 +1,7 @@
 package com.example.mecanica
 
 import android.app.Activity
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -37,6 +38,8 @@ class MainActivity : AppCompatActivity() {
 
             if(user.isNotEmpty() && password.isNotEmpty()){
                 singInWithEmailAndPassword(user, password)
+                val home = Intent(this, home::class.java)
+                startActivity(home)
             }else{
                 Toast.makeText(this@MainActivity, "Por favor, preencha os campos", Toast.LENGTH_SHORT).show()
             }
@@ -55,6 +58,8 @@ class MainActivity : AppCompatActivity() {
 
             if(user.isNotEmpty() && password.isNotEmpty()){
                 createUserWithEmailAndPassword(user, password)
+                Toast.makeText(this@MainActivity, "Conta criada com sucesso", Toast.LENGTH_SHORT).show()
+
             }else{
                 Toast.makeText(this@MainActivity, "Por favor, preencha os campos", Toast.LENGTH_SHORT).show()
             }
