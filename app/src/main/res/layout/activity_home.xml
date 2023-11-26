@@ -22,120 +22,137 @@
 
             <ImageView
                 android:layout_width="100dp"
-                android:layout_height="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
                 android:importantForAccessibility="no"
-                android:src="@drawable/captura_de_tela_2023_11_24_220937"
-                android:gravity="center" />
+                android:paddingTop="15dp"
+                android:src="@drawable/captura_de_tela_2023_11_24_220937" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:fontFamily="@font/fonte"
+                android:gravity="center_vertical"
                 android:paddingTop="30dp"
                 android:text="@string/title"
-                android:textAlignment="center"
                 android:textColor="#1869E2"
-                android:textSize="60sp"
-                android:gravity="center" />
+                android:textSize="40sp" />
         </LinearLayout>
 
         <!-- Segundo LinearLayout abaixo do primeiro -->
-        <GridLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:paddingTop="30dp"
+            android:layout_height="600dp"
+            android:layout_margin="10dp"
             android:columnCount="3"
             android:rowCount="3"
-            android:layout_margin="16dp"
             tools:context=".MainActivity">
 
             <Button
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
                 android:layout_gravity="fill"
-                android:background="@drawable/addcliente"/>
+                android:layout_margin="13dp"
+                android:background="@drawable/addcliente" />
 
             <Button
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
                 android:layout_gravity="fill"
-                android:background="@drawable/relatorioestoque"/>
+                android:layout_margin="13dp"
+                android:background="@drawable/relatorioestoque" />
 
             <Button
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:layout_gravity="fill"
-                android:background="@drawable/gerenciamentoestoque"/>
-
-
-            <Button
-                android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
+                android:layout_columnWeight="1"
                 android:layout_gravity="fill"
-                android:background="@drawable/add_carro"/>
+                android:layout_margin="13dp"
+                android:background="@drawable/gerenciamentoestoque" />
 
 
             <Button
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
                 android:layout_gravity="fill"
-                android:background="@drawable/controledecaixa"/>
+                android:layout_margin="13dp"
+                android:background="@drawable/add_carro" />
 
 
             <Button
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
                 android:layout_gravity="fill"
-                android:background="@drawable/descricaoservico"/>
+                android:layout_margin="13dp"
+                android:background="@drawable/controledecaixa" />
 
 
             <Button
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
                 android:layout_gravity="fill"
-                android:background="@drawable/addfuncionario"/>
+                android:layout_margin="13dp"
+                android:background="@drawable/descricaoservico" />
 
 
             <Button
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
                 android:layout_gravity="fill"
-                android:background="@drawable/produtividade"/>
+                android:layout_margin="13dp"
+                android:background="@drawable/addfuncionario" />
 
 
             <Button
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
                 android:layout_gravity="fill"
-                android:background="@drawable/avaliacao"/>
+                android:layout_margin="13dp"
+                android:background="@drawable/produtividade" />
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="13dp"
+                android:background="@drawable/avaliacao" />
 
         </GridLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/botoes"
-            >
+            android:gravity="bottom">
 
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                app:backgroundTint="@color/button"
+                app:itemIconTint="@color/white"
+                app:menu="@menu/bottom_navigation_menu" />
         </LinearLayout>
     </LinearLayout>
 

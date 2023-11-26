@@ -30,19 +30,21 @@ class MainActivity : AppCompatActivity() {
 
         buttonlogin.setOnClickListener {
 
-            textlogin = findViewById(R.id.usertext)
-            textpassword = findViewById(R.id.userpassword)
-
-            val user: String = textlogin.text.toString()
-            val password: String = textpassword.text.toString()
-
-            if(user.isNotEmpty() && password.isNotEmpty()){
-                singInWithEmailAndPassword(user, password)
+//            textlogin = findViewById(R.id.usertext)
+//            textpassword = findViewById(R.id.userpassword)
+//
+//            val user: String = textlogin.text.toString()
+//            val password: String = textpassword.text.toString()
+//
+//            if(user.isNotEmpty() && password.isNotEmpty()){
+//                singInWithEmailAndPassword(user, password)
+//                val home = Intent(this, home::class.java)
+//                startActivity(home)
+//            }else{
+//                Toast.makeText(this@MainActivity, "Por favor, preencha os campos", Toast.LENGTH_SHORT).show()
+//            }
                 val home = Intent(this, home::class.java)
                 startActivity(home)
-            }else{
-                Toast.makeText(this@MainActivity, "Por favor, preencha os campos", Toast.LENGTH_SHORT).show()
-            }
         }
 
         buttonregister = findViewById<Button>(R.id.registebutton)
