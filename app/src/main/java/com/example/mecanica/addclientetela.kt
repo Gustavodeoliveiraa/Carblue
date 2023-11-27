@@ -62,23 +62,17 @@ class addclientetela : AppCompatActivity() {
 
         add.setOnClickListener {
             var name: EditText
-            var nomestring: String
-
             var rg: EditText
-            var rgstring: String
-
 
 
             name = findViewById(R.id.nome)
-            nomestring = name.text.toString()
 
             rg = findViewById(R.id.rg)
-            rgstring = name.text.toString()
 
 
 
-            println(nomestring)
-            println(rgstring)
+            println(name.text.toString())
+            println(rg.text.toString())
             println(datanasc.text.toString())
         }
 
