@@ -24,12 +24,14 @@ class home : AppCompatActivity() {
                     startActivity(home)
                     true
                 }
+
                 R.id.exit -> {
                     val exit = Intent(this, MainActivity::class.java)
                     startActivity(exit)
                     true
 
                 }
+
                 R.id.settings -> {
                     println("settings")
                     true
@@ -42,16 +44,10 @@ class home : AppCompatActivity() {
 
 //        addcliente
         addclientebutton = findViewById(R.id.addclienteclick)
-        addclientebutton.setOnClickListener{
-            replaceFragment(Telacadastrocliente())
+        addclientebutton.setOnClickListener {
+            val addcliente = Intent(this, addclientetela::class.java)
+            startActivity(addcliente)
         }
     }
-
-    private fun replaceFragment(fragment: Fragment) {
-        val fragmentManager = supportFragmentManager
-        val transaction = fragmentManager.beginTransaction()
-        transaction.replace(R.id.seuConteinerDeFragment, fragment)
-        transaction.addToBackStack(null) //
-        transaction.commit()
-    }
 }
+
