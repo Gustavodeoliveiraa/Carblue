@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="button">#1869E2</color>
+    <color name="buttoncinza">#E3E3E4</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Senha">Senha</string>
+    <string name="Usuario">Usuario</string>
+    <string name="app_name">Mecanica</string>
+    <string name="gcm_defaultSenderId" translatable="false">763935988141</string>
+    <string name="google_api_key" translatable="false">AIzaSyAKCH9GFiZt552mfqHr6hYF9UVZ9WFZoXc</string>
+    <string name="google_app_id" translatable="false">1:763935988141:android:e73c8c352a314ec727e924</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAKCH9GFiZt552mfqHr6hYF9UVZ9WFZoXc</string>
+    <string name="google_storage_bucket" translatable="false">carblue-b8272.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="project_id" translatable="false">carblue-b8272</string>
+    <string name="register">Register</string>
+    <string name="title">Car Blue</string>
+    <style name="Base.Theme.Mecanica" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Mecanica" parent="Base.Theme.Mecanica"/>
+</resources>

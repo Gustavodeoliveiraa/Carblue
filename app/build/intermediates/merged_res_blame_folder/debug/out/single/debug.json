@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_relatorioestoque.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/relatorioestoque.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/xml_backup_rules.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_campoaddcliente.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/campoaddcliente.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/menu_bottom_navigation_menu.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/menu/bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.mecanica.app-main-38:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_homeicon.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/homeicon.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mecanica.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/font_fonte.TTF.flat",
+        "source": "com.example.mecanica.app-main-38:/font/fonte.TTF"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_addfuncionario.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/addfuncionario.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_captura_de_tela_2023_11_24_220937.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/captura_de_tela_2023_11_24_220937.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.mecanica.app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mecanica.app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_botoes.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/botoes.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_arround.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/arround.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mecanica.app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_addclientebotao.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/addclientebotao.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_edittext_rounded_bg.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/edittext_rounded_bg.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_produtividade.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/produtividade.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.mecanica.app-main-38:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_arredondarbotao.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/arredondarbotao.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/layout_activity_home.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_gerenciamentoestoque.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/gerenciamentoestoque.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_addcliente.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/addcliente.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/layout_fragmenteaddcliente.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/layout/fragmenteaddcliente.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_settingsicon.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/settingsicon.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_controledecaixa.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/controledecaixa.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_add_carro.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/add_carro.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.mecanica.app-main-38:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_descricaoservico.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/descricaoservico.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.mecanica.app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_avaliacao.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/avaliacao.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/layout_activity_addclientetela.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/layout/activity_addclientetela.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mecanica.app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mecanica.app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/drawable_logouticon.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/drawable/logouticon.xml"
+    }
+]
