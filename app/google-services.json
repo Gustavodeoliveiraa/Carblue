@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "763935988141",
+    "project_id": "carblue-b8272",
+    "storage_bucket": "carblue-b8272.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763935988141:android:e73c8c352a314ec727e924",
+        "android_client_info": {
+          "package_name": "com.example.mecanica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKCH9GFiZt552mfqHr6hYF9UVZ9WFZoXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
