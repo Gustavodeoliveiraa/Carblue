@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Mecanica"
         tools:targetApi="31">
         <activity
+            android:name=".seeAllClients"
+            android:exported="false" />
+        <activity
             android:name=".addclientetela"
             android:exported="false" />
         <activity

@@ -1340,6 +1340,8 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
+color corLinhaImpar
+color corLinhaPar
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -2729,6 +2731,8 @@ drawable arround
 drawable avaliacao
 drawable avd_hide_password
 drawable avd_show_password
+drawable borda_linhas_tabela_clientes
+drawable borda_tabela_usuarios
 drawable botoes
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -3317,6 +3321,9 @@ id submenuarrow
 id submit_area
 id supportScrollUp
 id tabMode
+id tableusername
+id tableusernascimento
+id tableuserrg
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -3367,6 +3374,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userTable
 id userpassword
 id usertext
 id vertical_only
@@ -3499,6 +3507,7 @@ layout abc_tooltip
 layout activity_addclientetela
 layout activity_home
 layout activity_main
+layout activity_see_all_clients
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

@@ -36,6 +36,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Mecanica" >
         <activity
+            android:name="com.example.mecanica.seeAllClients"
+            android:exported="false" />
+        <activity
             android:name="com.example.mecanica.addclientetela"
             android:exported="false" />
         <activity

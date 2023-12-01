@@ -8,8 +8,20 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_borda_linhas_tabela_clientes.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\borda_linhas_tabela_clientes.xml"
+    },
+    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\layout_activity_home.xml.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_descricaoservico.xml.flat",
@@ -28,8 +40,24 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\settingsicon.xml"
     },
     {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_arredondarbotao.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\arredondarbotao.xml"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\font_fonte.TTF.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\font\\fonte.TTF"
+    },
+    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_controledecaixa.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\controledecaixa.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -40,12 +68,24 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\layout_activity_see_all_clients.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\layout\\activity_see_all_clients.xml"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_campoaddcliente.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\campoaddcliente.xml"
+    },
+    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\layout_fragmenteaddcliente.xml.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\layout\\fragmenteaddcliente.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_addfuncionario.xml.flat",
@@ -56,12 +96,20 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\avaliacao.xml"
     },
     {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_homeicon.xml.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\homeicon.xml"
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.mecanica.app-merged_res-36:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.mecanica.app-main-38:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_gerenciamentoestoque.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\gerenciamentoestoque.xml"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_borda_tabela_usuarios.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\borda_tabela_usuarios.xml"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_homeicon.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\homeicon.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_logouticon.xml.flat",
@@ -84,86 +132,6 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\produtividade.xml"
     },
     {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_botoes.xml.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\botoes.xml"
-    },
-    {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "com.example.mecanica.app-merged_res-36:/layout_activity_addclientetela.xml.flat",
-        "source": "com.example.mecanica.app-main-38:/layout/activity_addclientetela.xml"
-    },
-    {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_relatorioestoque.xml.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\relatorioestoque.xml"
-    },
-    {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.mecanica.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.mecanica.app-main-38:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.example.mecanica.app-merged_res-36:/xml_backup_rules.xml.flat",
-        "source": "com.example.mecanica.app-main-38:/xml/backup_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_arredondarbotao.xml.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\arredondarbotao.xml"
-    },
-    {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\font_fonte.TTF.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\font\\fonte.TTF"
-    },
-    {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_controledecaixa.xml.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\controledecaixa.xml"
-    },
-    {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_campoaddcliente.xml.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\campoaddcliente.xml"
-    },
-    {
-        "merged": "com.example.mecanica.app-merged_res-36:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.mecanica.app-main-38:/drawable/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_gerenciamentoestoque.xml.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\gerenciamentoestoque.xml"
-    },
-    {
-        "merged": "com.example.mecanica.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.mecanica.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "com.example.mecanica.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.mecanica.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -176,6 +144,14 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\xml\\data_extraction_rules.xml"
     },
     {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_botoes.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\botoes.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-merged_res-36:/layout_activity_see_all_clients.xml.flat",
+        "source": "com.example.mecanica.app-main-38:/layout/activity_see_all_clients.xml"
+    },
+    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_captura_de_tela_2023_11_24_220937.xml.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\captura_de_tela_2023_11_24_220937.xml"
     },
@@ -184,8 +160,20 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\addclientebotao.xml"
     },
     {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_addcliente.xml.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\addcliente.xml"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_relatorioestoque.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\drawable\\relatorioestoque.xml"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-main-38:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.0\\com.example.mecanica.app-merged_res-36:\\drawable_arround.xml.flat",

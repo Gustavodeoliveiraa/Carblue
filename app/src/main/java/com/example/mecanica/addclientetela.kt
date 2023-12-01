@@ -2,13 +2,17 @@ package com.example.mecanica
 
 import android.app.DatePickerDialog
 import android.content.Intent
+import android.database.sqlite.SQLiteDatabase
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatEditText
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import java.lang.Exception
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Locale
@@ -23,6 +27,15 @@ class addclientetela : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_addclientetela)
+        val database: SQLiteDatabase = openOrCreateDatabase("DB_USUARIOS", MODE_PRIVATE, null)
+
+        try {
+
+            database.execSQL("CREATE TABLE IF NOT EXISTS usuarios(nome VARCHAR, rg INT(10), nascimento VARCHAR)")
+
+        }catch(e: Exception){
+            e.printStackTrace()
+        }
 
         bottomNavigationView = findViewById(R.id.bottom_navigation)
 
@@ -53,27 +66,53 @@ class addclientetela : AppCompatActivity() {
         vertudo = findViewById(R.id.vertodos)
 
         vertudo.setOnClickListener {
-            println("motrandotudo")
-            openDatePicker()
+            val verclientes = Intent(this, seeAllClients::class.java)
+            startActivity(verclientes)
 
         }
 
         add = findViewById(R.id.add)
 
         add.setOnClickListener {
-            var name: EditText
-            var rg: EditText
+            val name: EditText = findViewById(R.id.nome)
+            val rg: EditText = findViewById(R.id.rg)
 
+            val nomeUsuario = name.text.toString()
+            val rgUsuario = rg.text.toString()
+            val dataNascimentoUsuario = datanasc.text.toString()
 
-            name = findViewById(R.id.nome)
+            try {
+                // Use ? como marcadores de posição e passe os valores como argumentos para evitar SQL injection
+                database.execSQL("INSERT INTO usuarios (nome, rg, nascimento) VALUES (?, ?, ?)",
+                    arrayOf(nomeUsuario, rgUsuario, dataNascimentoUsuario))
 
-            rg = findViewById(R.id.rg)
+                // Consulta para verificar os dados inseridos
+                val cursor = database.rawQuery("SELECT * FROM usuarios", null)
 
+                // Índices das colunas
+                val nameIndex = cursor.getColumnIndex("nome")
+                val rgIndex = cursor.getColumnIndex("rg")
+                val nascIndex = cursor.getColumnIndex("nascimento")
 
+                cursor.moveToFirst()
 
-            println(name.text.toString())
-            println(rg.text.toString())
-            println(datanasc.text.toString())
+                while (!cursor.isAfterLast) {
+                    val nome = cursor.getString(nameIndex)
+                    val rguser = cursor.getString(rgIndex)
+                    val idadeuser = cursor.getString(nascIndex)
+
+                    Log.i("resultado", "/nome: $nome/ $rguser/ $idadeuser")
+                    cursor.moveToNext()
+                }
+
+                cursor.close()
+                Toast.makeText(this, "Cliente adicionado com sucesso", Toast.LENGTH_SHORT).show()
+
+            } catch (e: Exception) {
+                e.printStackTrace()
+                Toast.makeText(this, "Erro ao adicionar cliente", Toast.LENGTH_SHORT).show()
+
+            }
         }
 
         datanasc = findViewById(R.id.datanascimento)
@@ -96,6 +135,7 @@ class addclientetela : AppCompatActivity() {
         datePickerDialog.show()
         println("Fechou o DatePicker") // Adicione este log
     }
+
 
 }
 

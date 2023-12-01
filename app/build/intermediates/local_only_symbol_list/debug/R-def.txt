@@ -3,6 +3,8 @@ local
 color black
 color button
 color buttoncinza
+color corLinhaImpar
+color corLinhaPar
 color white
 drawable add_carro
 drawable addcliente
@@ -11,6 +13,8 @@ drawable addfuncionario
 drawable arredondarbotao
 drawable arround
 drawable avaliacao
+drawable borda_linhas_tabela_clientes
+drawable borda_tabela_usuarios
 drawable botoes
 drawable campoaddcliente
 drawable captura_de_tela_2023_11_24_220937
@@ -47,12 +51,17 @@ id registebutton
 id rg
 id settings
 id seuConteinerDeFragment
+id tableusername
+id tableusernascimento
+id tableuserrg
+id userTable
 id userpassword
 id usertext
 id vertodos
 layout activity_addclientetela
 layout activity_home
 layout activity_main
+layout activity_see_all_clients
 layout fragmenteaddcliente
 menu bottom_navigation_menu
 mipmap ic_launcher
