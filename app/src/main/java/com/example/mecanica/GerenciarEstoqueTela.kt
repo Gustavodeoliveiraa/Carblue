@@ -12,7 +12,6 @@ import android.widget.TableRow
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import java.lang.Exception
 
 class GerenciarEstoqueTela : AppCompatActivity() {
     private lateinit var bottomNavigationView: BottomNavigationView
@@ -22,12 +21,13 @@ class GerenciarEstoqueTela : AppCompatActivity() {
     private lateinit var quantidadeEditText: EditText
     private lateinit var valorEditText: EditText
     private lateinit var searchView: SearchView
+    private lateinit var database: SQLiteDatabase
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_gerenciar_estoque_tela)
 
-        val database: SQLiteDatabase = openOrCreateDatabase("DB_ESTOQUE", MODE_PRIVATE, null)
+        database = openOrCreateDatabase("DB_ESTOQUE", MODE_PRIVATE, null)
 
         try {
             database.execSQL("CREATE TABLE IF NOT EXISTS estouque(cod VARCHAR, peca VARCHAR, quantidade INT, valor DECIMAL(10, 2))")
@@ -97,6 +97,56 @@ class GerenciarEstoqueTela : AppCompatActivity() {
         } catch (e: Exception) {
             e.printStackTrace()
         }
+
+        // Configurar listener para a SearchView
+        searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+            override fun onQueryTextSubmit(query: String?): Boolean {
+                return false
+            }
+
+            override fun onQueryTextChange(newText: String?): Boolean {
+                // Chame a função para filtrar a tabela com base no nome da peça
+                filterTableByName(newText.orEmpty())
+                return true
+            }
+        })
+    }
+
+    // Função para filtrar a tabela com base no nome da peça
+    private fun filterTableByName(pecaName: String) {
+        // Limpar a tabela antes de adicionar linhas filtradas
+        userTable.removeAllViews()
+
+        val searchView = findViewById<SearchView>(R.id.searchView)
+        searchView.queryHint = "Digite sua pesquisa aqui"
+
+        // Adicionar cabeçalho
+        addRowToTable("Cod", "Peça", "Quantidade", "Valor")
+
+        try {
+            val cursor: Cursor = database.rawQuery("SELECT * FROM estouque WHERE peca LIKE ?", arrayOf("%$pecaName%"))
+
+            // Índices das colunas
+            val codIndex = cursor.getColumnIndex("cod")
+            val pecaIndex = cursor.getColumnIndex("peca")
+            val quantidadeIndex = cursor.getColumnIndex("quantidade")
+            val valorIndex = cursor.getColumnIndex("valor")
+
+            while (cursor.moveToNext()) {
+                val cod = cursor.getString(codIndex)
+                val peca = cursor.getString(pecaIndex)
+                val quantidade = cursor.getString(quantidadeIndex)
+                val valor = cursor.getString(valorIndex)
+
+                // Adicione dinamicamente uma nova linha à tabela
+                addRowToTable(cod, peca, quantidade, valor)
+            }
+
+            cursor.close()
+
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
     }
 
     private fun addRowToTable(cod: String, peca: String, quantidade: String, valor: String) {
@@ -143,5 +193,4 @@ class GerenciarEstoqueTela : AppCompatActivity() {
         )
         return editText
     }
-
 }

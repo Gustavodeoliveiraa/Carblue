@@ -9,6 +9,7 @@
     <string name="Senha">Senha</string>
     <string name="Usuario">Usuario</string>
     <string name="app_name">Mecanica</string>
+    <string name="buscar">Buscar</string>
     <string name="cod">Cod</string>
     <string name="concluir">Concluir</string>
     <string name="gcm_defaultSenderId" translatable="false">763935988141</string>

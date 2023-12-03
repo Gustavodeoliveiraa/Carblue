@@ -48,13 +48,14 @@
             android:gravity="center|top"
             android:orientation="vertical">
 
-
             <androidx.appcompat.widget.SearchView
                 android:id="@+id/searchView"
-                android:layout_width="match_parent"
+                android:layout_width="360dp"
                 android:layout_height="wrap_content"
-                android:queryHint="Pesquisar..."
-                android:iconifiedByDefault="false" />
+                android:background="@drawable/arredondamento"
+                android:layout_marginBottom="20dp"
+                app:iconifiedByDefault="false"
+                app:defaultQueryHint="Buscar"/>
 
             <ScrollView
                 android:layout_width="match_parent"

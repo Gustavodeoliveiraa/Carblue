@@ -11,6 +11,7 @@ drawable addcliente
 drawable addclientebotao
 drawable addfuncionario
 drawable addpe_as
+drawable arredondamento
 drawable arredondarbotao
 drawable arround
 drawable avaliacao
@@ -77,6 +78,7 @@ mipmap ic_launcher_round
 string Senha
 string Usuario
 string app_name
+string buscar
 string cod
 string concluir
 string gcm_defaultSenderId

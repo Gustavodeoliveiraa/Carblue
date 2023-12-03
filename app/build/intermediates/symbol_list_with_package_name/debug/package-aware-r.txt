@@ -3337,6 +3337,7 @@ drawable addcliente
 drawable addclientebotao
 drawable addfuncionario
 drawable addpe_as
+drawable arredondamento
 drawable arredondarbotao
 drawable arround
 drawable avaliacao
@@ -4559,6 +4560,7 @@ string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string buscar
 string call_notification_answer_action
 string call_notification_answer_video_action
 string call_notification_decline_action

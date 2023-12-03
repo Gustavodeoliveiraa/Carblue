@@ -3336,6 +3336,7 @@ int drawable addcliente 0x7f080079
 int drawable addclientebotao 0x7f08007a
 int drawable addfuncionario 0x7f08007b
 int drawable addpe_as 0x7f08007c
+int drawable arredondamento 0x7f08014a
 int drawable arredondarbotao 0x7f08007d
 int drawable arround 0x7f08007e
 int drawable avaliacao 0x7f08007f
@@ -4558,6 +4559,7 @@ int string bottomsheet_action_expand 0x7f130022
 int string bottomsheet_action_expand_halfway 0x7f130023
 int string bottomsheet_drag_handle_clicked 0x7f130024
 int string bottomsheet_drag_handle_content_description 0x7f130025
+int string buscar 0x7f1300e9
 int string call_notification_answer_action 0x7f130026
 int string call_notification_answer_video_action 0x7f130027
 int string call_notification_decline_action 0x7f130028

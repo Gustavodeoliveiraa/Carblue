@@ -13,4 +13,5 @@
     <string name="pe_as">Peças</string>
     <string name="quantidade">quantidade</string>
     <string name="valor">Valor</string>
+    <string name="buscar">Buscar</string>
 </resources>
