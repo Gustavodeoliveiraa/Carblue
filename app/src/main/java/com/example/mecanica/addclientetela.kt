@@ -104,6 +104,9 @@ class addclientetela : AppCompatActivity() {
                     Log.i("resultado", "/nome: $nome/ $rguser/ $idadeuser")
                     cursor.moveToNext()
                 }
+                name.text.clear()
+                rg.text.clear()
+                datanasc.text = ""
 
                 cursor.close()
                 Toast.makeText(this, "Cliente adicionado com sucesso", Toast.LENGTH_SHORT).show()

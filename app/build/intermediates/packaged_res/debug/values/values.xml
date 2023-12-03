@@ -9,6 +9,8 @@
     <string name="Senha">Senha</string>
     <string name="Usuario">Usuario</string>
     <string name="app_name">Mecanica</string>
+    <string name="cod">Cod</string>
+    <string name="concluir">Concluir</string>
     <string name="gcm_defaultSenderId" translatable="false">763935988141</string>
     <string name="google_api_key" translatable="false">AIzaSyAKCH9GFiZt552mfqHr6hYF9UVZ9WFZoXc</string>
     <string name="google_app_id" translatable="false">1:763935988141:android:e73c8c352a314ec727e924</string>
@@ -16,9 +18,13 @@
     <string name="google_storage_bucket" translatable="false">carblue-b8272.appspot.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="login">Login</string>
+    <string name="pe_a">Peça</string>
+    <string name="pe_as">Peças</string>
     <string name="project_id" translatable="false">carblue-b8272</string>
+    <string name="quantidade">quantidade</string>
     <string name="register">Register</string>
     <string name="title">Car Blue</string>
+    <string name="valor">Valor</string>
     <style name="Base.Theme.Mecanica" parent="Theme.AppCompat.Light.NoActionBar">
         
         

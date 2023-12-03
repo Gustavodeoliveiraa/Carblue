@@ -1,4 +1,4 @@
-#Thu Nov 30 22:07:31 BRT 2023
+#Sat Dec 02 01:51:27 BRT 2023
 base.0=C\:\\Users\\ggu31\\AndroidStudioProjects\\Mecanica2\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
 base.1=C\:\\Users\\ggu31\\AndroidStudioProjects\\Mecanica2\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
 base.2=C\:\\Users\\ggu31\\AndroidStudioProjects\\Mecanica2\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\1\\classes.dex

@@ -1,16 +1,15 @@
 package com.example.mecanica
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.LinearLayout
-import androidx.fragment.app.Fragment
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class home : AppCompatActivity() {
     private lateinit var bottomNavigationView: BottomNavigationView
     private lateinit var addclientebutton: Button
+    private lateinit var relatorioestoque: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,6 +42,13 @@ class home : AppCompatActivity() {
             }
         }
 
+        val gerEstoque = findViewById<Button>(R.id.gerestoque)
+        gerEstoque.setOnClickListener {
+            val gerenciarestoque = Intent(this, GerenciarEstoqueTela::class.java)
+            startActivity(gerenciarestoque)
+        }
+
+
 //        addcliente
         addclientebutton = findViewById(R.id.addclienteclick)
 
@@ -50,6 +56,13 @@ class home : AppCompatActivity() {
             val addcliente = Intent(this, addclientetela::class.java)
             startActivity(addcliente)
         }
+
+        relatorioestoque = findViewById(R.id.estoque)
+
+        relatorioestoque.setOnClickListener {
+
+        }
+
     }
 }
 

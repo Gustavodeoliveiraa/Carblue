@@ -15,6 +15,18 @@
         android:theme="@style/Theme.Mecanica"
         tools:targetApi="31">
         <activity
+            android:name=".GerenciarEstoqueTela"
+            android:exported="false" />
+        <activity
+            android:name=".RelatorioEstoqueTela"
+            android:exported="false" />
+        <activity
+            android:name=".AddPecaTela"
+            android:exported="false" />
+        <activity
+            android:name=".GerEstoqueTela"
+            android:exported="false" />
+        <activity
             android:name=".seeAllClients"
             android:exported="false" />
         <activity

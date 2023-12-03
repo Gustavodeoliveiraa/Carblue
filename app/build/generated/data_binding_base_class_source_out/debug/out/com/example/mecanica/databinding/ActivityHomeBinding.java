@@ -44,10 +44,10 @@ public final class ActivityHomeBinding implements ViewBinding {
   public final Button descServico;
 
   @NonNull
-  public final Button esttoque;
+  public final Button estoque;
 
   @NonNull
-  public final Button getEstoque;
+  public final Button gerestoque;
 
   @NonNull
   public final LinearLayout label1;
@@ -61,7 +61,7 @@ public final class ActivityHomeBinding implements ViewBinding {
   private ActivityHomeBinding(@NonNull ConstraintLayout rootView, @NonNull Button addFuncionario,
       @NonNull Button addcar, @NonNull Button addclienteclick, @NonNull Button avaliacao,
       @NonNull BottomNavigationView bottomNavigation, @NonNull Button controleCaixa,
-      @NonNull Button descServico, @NonNull Button esttoque, @NonNull Button getEstoque,
+      @NonNull Button descServico, @NonNull Button estoque, @NonNull Button gerestoque,
       @NonNull LinearLayout label1, @NonNull Button produtividade,
       @NonNull GridLayout seuConteinerDeFragment) {
     this.rootView = rootView;
@@ -72,8 +72,8 @@ public final class ActivityHomeBinding implements ViewBinding {
     this.bottomNavigation = bottomNavigation;
     this.controleCaixa = controleCaixa;
     this.descServico = descServico;
-    this.esttoque = esttoque;
-    this.getEstoque = getEstoque;
+    this.estoque = estoque;
+    this.gerestoque = gerestoque;
     this.label1 = label1;
     this.produtividade = produtividade;
     this.seuConteinerDeFragment = seuConteinerDeFragment;
@@ -148,15 +148,15 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.esttoque;
-      Button esttoque = ViewBindings.findChildViewById(rootView, id);
-      if (esttoque == null) {
+      id = R.id.estoque;
+      Button estoque = ViewBindings.findChildViewById(rootView, id);
+      if (estoque == null) {
         break missingId;
       }
 
-      id = R.id.getEstoque;
-      Button getEstoque = ViewBindings.findChildViewById(rootView, id);
-      if (getEstoque == null) {
+      id = R.id.gerestoque;
+      Button gerestoque = ViewBindings.findChildViewById(rootView, id);
+      if (gerestoque == null) {
         break missingId;
       }
 
@@ -179,8 +179,8 @@ public final class ActivityHomeBinding implements ViewBinding {
       }
 
       return new ActivityHomeBinding((ConstraintLayout) rootView, addFuncionario, addcar,
-          addclienteclick, avaliacao, bottomNavigation, controleCaixa, descServico, esttoque,
-          getEstoque, label1, produtividade, seuConteinerDeFragment);
+          addclienteclick, avaliacao, bottomNavigation, controleCaixa, descServico, estoque,
+          gerestoque, label1, produtividade, seuConteinerDeFragment);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

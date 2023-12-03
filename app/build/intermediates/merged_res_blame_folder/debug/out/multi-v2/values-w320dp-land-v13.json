@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mecanica.app-mergeDebugResources-34:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "outputFile": "com.example.mecanica.app-mergeDebugResources-39:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ggu31\\.gradle\\caches\\transforms-3\\e19fa9b283bc94e712271a8e004268d9\\transformed\\material-1.8.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+                    "source": "C:\\Users\\ggu31\\.gradle\\caches\\transforms-3\\a007a2f1af784f65d8cea792947dc36f\\transformed\\material-1.10.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

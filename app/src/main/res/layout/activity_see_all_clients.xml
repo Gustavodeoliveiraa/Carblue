@@ -68,7 +68,7 @@
                         android:layout_height="match_parent">
 
                         <EditText
-                            android:id="@+id/tableusername"
+                            android:id="@+id/codpeca"
                             android:layout_width="112dp"
                             android:layout_height="wrap_content"
                             android:background="@android:color/transparent"
@@ -77,7 +77,7 @@
                             android:text="Nome" />
 
                         <EditText
-                            android:id="@+id/tableuserrg"
+                            android:id="@+id/quantidade"
                             android:layout_width="153dp"
                             android:layout_height="wrap_content"
                             android:background="@android:color/transparent"
@@ -86,7 +86,7 @@
                             android:text="Rg" />
 
                         <EditText
-                            android:id="@+id/tableusernascimento"
+                            android:id="@+id/valor"
                             android:layout_width="113dp"
                             android:layout_height="wrap_content"
                             android:ems="10"
