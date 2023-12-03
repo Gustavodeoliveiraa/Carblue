@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Mecanica"
         tools:targetApi="31">
         <activity
+            android:name=".ControleCaixaTela"
+            android:exported="false" />
+        <activity
             android:name=".SeeAllFuncionarios"
             android:exported="false" />
         <activity

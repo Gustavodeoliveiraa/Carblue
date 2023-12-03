@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.example.mecanica.app-mergeDebugResources-40:/layout/activity_home.xml",
+        "source": "com.example.mecanica.app-main-43:/layout/activity_home.xml"
+    },
+    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_relatorio_estoque_tela.xml",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_relatorio_estoque_tela.xml"
     },
@@ -42,9 +46,5 @@
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_cadastrar_funcionario_tela.xml",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_cadastrar_funcionario_tela.xml"
-    },
-    {
-        "merged": "com.example.mecanica.app-mergeDebugResources-40:/layout/activity_gerenciar_estoque_tela.xml",
-        "source": "com.example.mecanica.app-main-43:/layout/activity_gerenciar_estoque_tela.xml"
     }
 ]

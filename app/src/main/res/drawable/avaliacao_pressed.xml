@@ -1,0 +1,12 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Camada original (seu ícone) -->
+    <item android:drawable="@drawable/avaliacao" />
+
+    <!-- Camada para o efeito de clique (sombra ou overlay) -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <solid android:color="#40FFFFFF" />
+        </shape>
+    </item>
+</layer-list>
