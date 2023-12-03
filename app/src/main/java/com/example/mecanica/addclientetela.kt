@@ -5,17 +5,11 @@ import android.content.Intent
 import android.database.sqlite.SQLiteDatabase
 import android.os.Bundle
 import android.util.Log
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.AppCompatEditText
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import java.lang.Exception
-import java.text.SimpleDateFormat
-import java.util.Calendar
-import java.util.Locale
 
 
 class addclientetela : AppCompatActivity() {
@@ -81,41 +75,47 @@ class addclientetela : AppCompatActivity() {
             val rgUsuario = rg.text.toString()
             val dataNascimentoUsuario = datanasc.text.toString()
 
-            try {
-                // Use ? como marcadores de posição e passe os valores como argumentos para evitar SQL injection
-                database.execSQL("INSERT INTO usuarios (nome, rg, nascimento) VALUES (?, ?, ?)",
-                    arrayOf(nomeUsuario, rgUsuario, dataNascimentoUsuario))
+            if (name.text.isNotEmpty() && rg.text.isNotEmpty() && datanasc.text.isNotEmpty()) {
+                try {
+                    // Use ? como marcadores de posição e passe os valores como argumentos para evitar SQL injection
+                    database.execSQL("INSERT INTO usuarios (nome, rg, nascimento) VALUES (?, ?, ?)",
+                        arrayOf(nomeUsuario, rgUsuario, dataNascimentoUsuario))
 
-                // Consulta para verificar os dados inseridos
-                val cursor = database.rawQuery("SELECT * FROM usuarios", null)
+                    // Consulta para verificar os dados inseridos
+                    val cursor = database.rawQuery("SELECT * FROM usuarios", null)
 
-                // Índices das colunas
-                val nameIndex = cursor.getColumnIndex("nome")
-                val rgIndex = cursor.getColumnIndex("rg")
-                val nascIndex = cursor.getColumnIndex("nascimento")
+                    // Índices das colunas
+                    val nameIndex = cursor.getColumnIndex("nome")
+                    val rgIndex = cursor.getColumnIndex("rg")
+                    val nascIndex = cursor.getColumnIndex("nascimento")
 
-                cursor.moveToFirst()
+                    cursor.moveToFirst()
 
-                while (!cursor.isAfterLast) {
-                    val nome = cursor.getString(nameIndex)
-                    val rguser = cursor.getString(rgIndex)
-                    val idadeuser = cursor.getString(nascIndex)
+                    while (!cursor.isAfterLast) {
+                        val nome = cursor.getString(nameIndex)
+                        val rguser = cursor.getString(rgIndex)
+                        val idadeuser = cursor.getString(nascIndex)
 
-                    Log.i("resultado", "/nome: $nome/ $rguser/ $idadeuser")
-                    cursor.moveToNext()
+                        Log.i("resultado", "/nome: $nome/ $rguser/ $idadeuser")
+                        cursor.moveToNext()
+                    }
+                    name.text.clear()
+                    rg.text.clear()
+                    datanasc.text = ""
+
+                    cursor.close()
+                    Toast.makeText(this, "Cliente adicionado com sucesso", Toast.LENGTH_SHORT).show()
+
+                } catch (e: Exception) {
+                    e.printStackTrace()
+                    Toast.makeText(this, "Erro ao adicionar cliente", Toast.LENGTH_SHORT).show()
+
                 }
-                name.text.clear()
-                rg.text.clear()
-                datanasc.text = ""
-
-                cursor.close()
-                Toast.makeText(this, "Cliente adicionado com sucesso", Toast.LENGTH_SHORT).show()
-
-            } catch (e: Exception) {
-                e.printStackTrace()
-                Toast.makeText(this, "Erro ao adicionar cliente", Toast.LENGTH_SHORT).show()
-
+            }else{
+                Toast.makeText(this, "Preencha todos os campos", Toast.LENGTH_SHORT).show()
             }
+
+
         }
 
         datanasc = findViewById(R.id.datanascimento)

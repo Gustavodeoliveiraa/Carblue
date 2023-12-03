@@ -1,15 +1,17 @@
 package com.example.mecanica
 
 import android.content.Intent
+import android.content.res.ColorStateList
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
-import androidx.appcompat.app.AppCompatActivity
+import android.graphics.Color
 import android.os.Bundle
 import android.text.Editable
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TableLayout
 import android.widget.TableRow
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class seeAllClients : AppCompatActivity() {
@@ -85,16 +87,13 @@ class seeAllClients : AppCompatActivity() {
 
         tableRow.layoutParams = params
 
-        val editTextNome = EditText(this)
-        editTextNome.text = Editable.Factory.getInstance().newEditable(nome)
+        val editTextNome = createEditText(nome)
         tableRow.addView(editTextNome)
 
-        val editTextRg = EditText(this)
-        editTextRg.text = Editable.Factory.getInstance().newEditable(rg)
+        val editTextRg = createEditText(rg)
         tableRow.addView(editTextRg)
 
-        val editTextNascimento = EditText(this)
-        editTextNascimento.text = Editable.Factory.getInstance().newEditable(nascimento)
+        val editTextNascimento = createEditText(nascimento)
         tableRow.addView(editTextNascimento)
 
         // Adicione a nova linha à tabela
@@ -109,5 +108,25 @@ class seeAllClients : AppCompatActivity() {
             // Linha ímpar
             tableRow.setBackgroundColor(resources.getColor(R.color.corLinhaImpar))
         }
+    }
+
+    private fun createEditText(text: String): EditText {
+        val editText = EditText(this)
+        editText.text = Editable.Factory.getInstance().newEditable(text)
+
+        // Remover a linha inferior
+        editText.background = null
+        editText.backgroundTintList = ColorStateList.valueOf(Color.TRANSPARENT)
+
+        editText.layoutParams = TableRow.LayoutParams(
+            TableRow.LayoutParams.WRAP_CONTENT,
+            TableRow.LayoutParams.WRAP_CONTENT
+        )
+        editText.setPadding(35, 25, 0, 25)
+
+
+
+
+        return editText
     }
 }

@@ -4,7 +4,7 @@
             "outputFile": "com.example.mecanica.test.app-mergeDebugAndroidTestResources-3:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ggu31\\.gradle\\caches\\transforms-3\\231c4f04956a554e8e43002070644d2c\\transformed\\core-1.5.0\\res\\values-v21\\values.xml",
+                    "source": "C:\\Users\\ggu31\\.gradle\\caches\\transforms-3\\4fd90a2d97feed3614e0ea5e2e2c5bf0\\transformed\\core-1.5.0\\res\\values-v21\\values.xml",
                     "from": {
                         "startLines": "4,13",
                         "startColumns": "0,0",

@@ -15,10 +15,22 @@
         android:theme="@style/Theme.Mecanica"
         tools:targetApi="31">
         <activity
-            android:name=".GerenciarEstoqueTela"
+            android:name=".SeeAllFuncionarios"
+            android:exported="false" />
+        <activity
+            android:name=".CadastrarFuncionarioTela"
+            android:exported="false" />
+        <activity
+            android:name=".SeeAllCar"
+            android:exported="false" />
+        <activity
+            android:name=".CadastroVeiculoTela"
             android:exported="false" />
         <activity
             android:name=".RelatorioEstoqueTela"
+            android:exported="false" />
+        <activity
+            android:name=".GerenciarEstoqueTela"
             android:exported="false" />
         <activity
             android:name=".AddPecaTela"

@@ -14,4 +14,6 @@
     <string name="quantidade">quantidade</string>
     <string name="valor">Valor</string>
     <string name="buscar">Buscar</string>
+    <string name="modelo">Modelo</string>
+    <string name="placa">Placa</string>
 </resources>

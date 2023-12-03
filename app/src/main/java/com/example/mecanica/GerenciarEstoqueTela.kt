@@ -1,8 +1,10 @@
 package com.example.mecanica
 
 import android.content.Intent
+import android.content.res.ColorStateList
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
+import android.graphics.Color
 import android.os.Bundle
 import android.text.Editable
 import android.widget.Button
@@ -35,7 +37,7 @@ class GerenciarEstoqueTela : AppCompatActivity() {
             e.printStackTrace()
         }
 
-        val adicionarpecatable = findViewById<Button>(R.id.adicionarpeca)
+        val adicionarpecatable = findViewById<Button>(R.id.aicionar)
         adicionarpecatable.setOnClickListener {
             val formaddpeca = Intent(this, AddPecaTela::class.java)
             startActivity(formaddpeca)
@@ -89,13 +91,14 @@ class GerenciarEstoqueTela : AppCompatActivity() {
                 val valor = cursor.getString(valorIndex)
 
                 // Adicione dinamicamente uma nova linha à tabela
-                addRowToTable(cod, peca, quantidade, valor)
+                addFormattedRowToTable(cod, peca, quantidade, valor)
             }
 
             cursor.close()
 
         } catch (e: Exception) {
             e.printStackTrace()
+
         }
 
         // Configurar listener para a SearchView
@@ -112,19 +115,17 @@ class GerenciarEstoqueTela : AppCompatActivity() {
         })
     }
 
-    // Função para filtrar a tabela com base no nome da peça
-    private fun filterTableByName(pecaName: String) {
-        // Limpar a tabela antes de adicionar linhas filtradas
-        userTable.removeAllViews()
+    override fun onResume() {
+        super.onResume()
+        refreshTableData()
+    }
 
-        val searchView = findViewById<SearchView>(R.id.searchView)
-        searchView.queryHint = "Digite sua pesquisa aqui"
-
-        // Adicionar cabeçalho
-        addRowToTable("Cod", "Peça", "Quantidade", "Valor")
+    private fun refreshTableData() {
+        // Limpe a tabela antes de recarregar os dados
+        clearTable()
 
         try {
-            val cursor: Cursor = database.rawQuery("SELECT * FROM estouque WHERE peca LIKE ?", arrayOf("%$pecaName%"))
+            val cursor: Cursor = database.rawQuery("SELECT * FROM estouque", null)
 
             // Índices das colunas
             val codIndex = cursor.getColumnIndex("cod")
@@ -139,7 +140,7 @@ class GerenciarEstoqueTela : AppCompatActivity() {
                 val valor = cursor.getString(valorIndex)
 
                 // Adicione dinamicamente uma nova linha à tabela
-                addRowToTable(cod, peca, quantidade, valor)
+                addFormattedRowToTable(cod, peca, quantidade, valor)
             }
 
             cursor.close()
@@ -149,7 +150,15 @@ class GerenciarEstoqueTela : AppCompatActivity() {
         }
     }
 
-    private fun addRowToTable(cod: String, peca: String, quantidade: String, valor: String) {
+    private fun clearTable() {
+        // Mantenha o cabeçalho e limpe apenas as linhas de dados
+        val rowCount = userTable.childCount
+        for (i in 1 until rowCount) {
+            userTable.removeViewAt(1)
+        }
+    }
+
+    private fun addFormattedRowToTable(cod: String, peca: String, quantidade: String, valor: String) {
         val tableRow = TableRow(this)
 
         val params = TableRow.LayoutParams(
@@ -183,7 +192,6 @@ class GerenciarEstoqueTela : AppCompatActivity() {
         }
     }
 
-    // Função auxiliar para criar um EditText dinamicamente
     private fun createEditText(text: String): EditText {
         val editText = EditText(this)
         editText.text = Editable.Factory.getInstance().newEditable(text)
@@ -191,6 +199,38 @@ class GerenciarEstoqueTela : AppCompatActivity() {
             TableRow.LayoutParams.WRAP_CONTENT,
             TableRow.LayoutParams.WRAP_CONTENT
         )
+
+        editText.background = null
+        editText.backgroundTintList = ColorStateList.valueOf(Color.TRANSPARENT)
+        editText.setPadding(35, 25, 0, 25)
+
         return editText
+    }
+
+    private fun filterTableByName(pecaName: String) {
+        clearTable()
+
+        try {
+            val cursor: Cursor = database.rawQuery("SELECT * FROM estouque WHERE peca LIKE ?", arrayOf("%$pecaName%"))
+
+            val codIndex = cursor.getColumnIndex("cod")
+            val pecaIndex = cursor.getColumnIndex("peca")
+            val quantidadeIndex = cursor.getColumnIndex("quantidade")
+            val valorIndex = cursor.getColumnIndex("valor")
+
+            while (cursor.moveToNext()) {
+                val cod = cursor.getString(codIndex)
+                val peca = cursor.getString(pecaIndex)
+                val quantidade = cursor.getString(quantidadeIndex)
+                val valor = cursor.getString(valorIndex)
+
+                addFormattedRowToTable(cod, peca, quantidade, valor)
+            }
+
+            cursor.close()
+
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
     }
 }

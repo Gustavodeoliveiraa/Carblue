@@ -60,7 +60,21 @@ class home : AppCompatActivity() {
         relatorioestoque = findViewById(R.id.estoque)
 
         relatorioestoque.setOnClickListener {
+            val relatorio = Intent(this, RelatorioEstoqueTela::class.java)
+            startActivity(relatorio)
+        }
 
+        val cadastrarVeiculo = findViewById<Button>(R.id.addcar)
+
+        cadastrarVeiculo.setOnClickListener {
+            val cadastrarVeiculo = Intent(this, CadastroVeiculoTela::class.java)
+            startActivity(cadastrarVeiculo)
+        }
+
+        val addfuncionario = findViewById<Button>(R.id.addFuncionario)
+        addfuncionario.setOnClickListener {
+            val addfuncionario = Intent(this, CadastrarFuncionarioTela::class.java)
+            startActivity(addfuncionario)
         }
 
     }

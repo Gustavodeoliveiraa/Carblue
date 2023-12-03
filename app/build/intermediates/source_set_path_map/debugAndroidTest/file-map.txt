@@ -1,5 +1,5 @@
-com.example.mecanica.test.app-core-1.5.0-0 C:\Users\ggu31\.gradle\caches\transforms-3\231c4f04956a554e8e43002070644d2c\transformed\core-1.5.0\res
-com.example.mecanica.test.app-annotation-experimental-1.3.0-1 C:\Users\ggu31\.gradle\caches\transforms-3\5a15f1d075d93f2c4941364faa794ae2\transformed\annotation-experimental-1.3.0\res
+com.example.mecanica.test.app-core-1.5.0-0 C:\Users\ggu31\.gradle\caches\transforms-3\4fd90a2d97feed3614e0ea5e2e2c5bf0\transformed\core-1.5.0\res
+com.example.mecanica.test.app-annotation-experimental-1.3.0-1 C:\Users\ggu31\.gradle\caches\transforms-3\8a12b982093624259d1d8bda9b3e4b1b\transformed\annotation-experimental-1.3.0\res
 com.example.mecanica.test.app-androidTest-2 C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\build\generated\res\resValues\androidTest\debug
 com.example.mecanica.test.app-mergeDebugAndroidTestResources-3 C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
 com.example.mecanica.test.app-mergeDebugAndroidTestResources-4 C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir

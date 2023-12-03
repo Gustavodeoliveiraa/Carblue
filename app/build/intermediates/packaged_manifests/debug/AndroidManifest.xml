@@ -48,10 +48,22 @@
         android:testOnly="true"
         android:theme="@style/Theme.Mecanica" >
         <activity
-            android:name="com.example.mecanica.GerenciarEstoqueTela"
+            android:name="com.example.mecanica.SeeAllFuncionarios"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mecanica.CadastrarFuncionarioTela"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mecanica.SeeAllCar"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mecanica.CadastroVeiculoTela"
             android:exported="false" />
         <activity
             android:name="com.example.mecanica.RelatorioEstoqueTela"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mecanica.GerenciarEstoqueTela"
             android:exported="false" />
         <activity
             android:name="com.example.mecanica.AddPecaTela"

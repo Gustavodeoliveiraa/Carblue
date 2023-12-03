@@ -129,7 +129,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/adicionarpeca"
+                    android:id="@+id/aicionar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="30dp"
@@ -140,7 +140,6 @@
                     android:text="Adicionar" />
 
                 <Button
-                    android:id="@+id/excluir"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

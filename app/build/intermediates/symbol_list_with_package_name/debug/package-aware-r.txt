@@ -3629,10 +3629,12 @@ id activity_chooser_view_content
 id add
 id addFuncionario
 id addcar
+id addcarro
 id addclienteclick
 id adicionarpeca
 id adjust_height
 id adjust_width
+id aicionar
 id alertTitle
 id aligned
 id all
@@ -3640,6 +3642,8 @@ id allStates
 id always
 id animateToEnd
 id animateToStart
+id ano
+id anocarro
 id antiClockwise
 id anticipate
 id arc
@@ -3807,6 +3811,7 @@ id custom
 id customPanel
 id cut
 id dark
+id datacontrato
 id datanascimento
 id date_picker_actions
 id decelerate
@@ -3855,7 +3860,6 @@ id endToStart
 id enterAlways
 id enterAlwaysCollapsed
 id estoque
-id excluir
 id exit
 id exitUntilCollapsed
 id expand_activities_button
@@ -3958,6 +3962,7 @@ id medium
 id message
 id middle
 id mini
+id modelo
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -4003,6 +4008,8 @@ id neverCompleteToStart
 id noScroll
 id noState
 id nome
+id nomecarro
+id nomefuncionario
 id none
 id normal
 id north
@@ -4042,6 +4049,8 @@ id peca
 id peekHeight
 id percent
 id pin
+id placa
+id plcacarro
 id position
 id postLayout
 id preference
@@ -4060,6 +4069,7 @@ id registebutton
 id report_drawn
 id reverseSawtooth
 id rg
+id rgfuncionario
 id right
 id rightToLeft
 id right_icon
@@ -4349,10 +4359,15 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_peca_tela
 layout activity_addclientetela
+layout activity_cadastrar_funcionario_tela
+layout activity_cadastro_veiculo_tela
 layout activity_gerenciar_estoque_tela
 layout activity_home
 layout activity_main
+layout activity_relatorio_estoque_tela
+layout activity_see_all_car
 layout activity_see_all_clients
+layout activity_see_all_funcionarios
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout car_ui_alert_dialog_edit_text
@@ -4670,6 +4685,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string modelo
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name
@@ -4740,6 +4756,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string pe_a
 string pe_as
+string placa
 string preference_copied
 string project_id
 string quantidade

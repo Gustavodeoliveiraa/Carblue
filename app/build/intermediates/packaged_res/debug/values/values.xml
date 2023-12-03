@@ -6,6 +6,7 @@
     <color name="corLinhaImpar">#42B9B9B9</color>
     <color name="corLinhaPar">#FFFFFFFF</color>
     <color name="white">#FFFFFFFF</color>
+    <item name="adicionarpeca" type="id"/>
     <string name="Senha">Senha</string>
     <string name="Usuario">Usuario</string>
     <string name="app_name">Mecanica</string>
@@ -19,8 +20,10 @@
     <string name="google_storage_bucket" translatable="false">carblue-b8272.appspot.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="login">Login</string>
+    <string name="modelo">Modelo</string>
     <string name="pe_a">Peça</string>
     <string name="pe_as">Peças</string>
+    <string name="placa">Placa</string>
     <string name="project_id" translatable="false">carblue-b8272</string>
     <string name="quantidade">quantidade</string>
     <string name="register">Register</string>

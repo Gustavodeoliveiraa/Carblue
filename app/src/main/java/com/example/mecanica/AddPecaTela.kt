@@ -2,12 +2,12 @@ package com.example.mecanica
 
 import android.content.Intent
 import android.database.sqlite.SQLiteDatabase
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import java.lang.Exception
 
 class AddPecaTela : AppCompatActivity() {
     private lateinit var bottomNavigationView: BottomNavigationView
@@ -41,13 +41,20 @@ class AddPecaTela : AppCompatActivity() {
                 val query = "INSERT INTO estouque (cod, peca, quantidade, valor) VALUES ('$codValue', '$pecaValue', $quantidadeValue, $valorValue)"
                 database.execSQL(query)
 
-                println("Inserção bem-sucedida!")
+                Toast.makeText(this, "Adicionado com sucesso", Toast.LENGTH_SHORT).show()
+
 
                 // Lembre-se de fechar o banco de dados quando terminar
                 database.close()
+                codEditText.text.clear()
+                pecaEditText.text.clear()
+                valorEditText.text.clear()
+                quantidadeEditText.text.clear()
+
             } catch (e: Exception) {
                 e.printStackTrace()
-                println("Erro ao inserir na tabela do banco de dados.")
+                Toast.makeText(this, "Preencha todos os campos", Toast.LENGTH_SHORT).show()
+
             }
         }
 
