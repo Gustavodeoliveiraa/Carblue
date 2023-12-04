@@ -48,6 +48,30 @@
         android:testOnly="true"
         android:theme="@style/Theme.Mecanica" >
         <activity
+            android:name="com.example.mecanica.SeeAllOrdem"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mecanica.CriarNovaOrdemServico"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mecanica.AddConteoleProdutividade"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mecanica.AddControleProdutivadade"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mecanica.ControleProdutivadadeTela"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mecanica.ControleProdutividadeTela"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mecanica.AddtableControleCaixa"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mecanica.ControleCaixaTela"
+            android:exported="false" />
+        <activity
             android:name="com.example.mecanica.SeeAllFuncionarios"
             android:exported="false" />
         <activity

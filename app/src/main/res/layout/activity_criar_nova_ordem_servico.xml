@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <!-- Primeiro LinearLayout -->
+        <LinearLayout
+            android:id="@+id/label1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="15dp"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:paddingTop="15dp"
+                android:src="@drawable/captura_de_tela_2023_11_24_220937" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:fontFamily="@font/fonte"
+                android:gravity="center_vertical"
+                android:paddingTop="30dp"
+                android:text="@string/title"
+                android:textColor="#1869E2"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="604dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="60dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:background="@drawable/addpe_as"
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+
+                >
+
+                <EditText
+                    android:id="@+id/nomecar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginEnd="13dp"
+                    android:autofillHints=""
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:hint="Carro"
+
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/placa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginEnd="13dp"
+                    android:autofillHints=""
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:hint="Placa"
+
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/mecanico"
+                    android:textAlignment="textStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginEnd="13dp"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:hint="Mecanico Responsavel"
+                    android:minHeight="48dp"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/descricaoservico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginEnd="13dp"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:hint="Descriçao do Serviço"
+                    android:minHeight="48dp"
+
+                    android:padding="10dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/concluir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/arredondarbotao"
+                    android:backgroundTint="@color/buttoncinza"
+
+                    android:text="Adicionar" />
+
+                <Button
+                    android:id="@+id/vertodas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ver Todas"
+                    android:layout_margin="30dp"
+                    android:background="@drawable/arround"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                app:backgroundTint="@color/button"
+                app:itemIconTint="@color/white"
+                app:menu="@menu/bottom_navigation_menu" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

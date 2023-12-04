@@ -8,24 +8,16 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_addclientetela.xml"
     },
     {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_add_carro.xml.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\add_carro.xml"
     },
     {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_relatoriopressed.xml.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\relatoriopressed.xml"
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_button_descservico_selector.xml.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\button_descservico_selector.xml"
-    },
-    {
-        "merged": "com.example.mecanica.app-merged_res-41:/drawable_produtividade_pressed.xml.flat",
-        "source": "com.example.mecanica.app-main-43:/drawable/produtividade_pressed.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_captura_de_tela_2023_11_24_220937.xml.flat",
@@ -52,14 +44,6 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\gerenciamentoestoque_pressed.xml"
     },
     {
-        "merged": "com.example.mecanica.app-merged_res-41:/drawable_addfuncionario_pressed.xml.flat",
-        "source": "com.example.mecanica.app-main-43:/drawable/addfuncionario_pressed.xml"
-    },
-    {
-        "merged": "com.example.mecanica.app-merged_res-41:/drawable_add_carro_pressed.xml.flat",
-        "source": "com.example.mecanica.app-main-43:/drawable/add_carro_pressed.xml"
-    },
-    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_gerenciamentoestoque.xml.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\gerenciamentoestoque.xml"
     },
@@ -76,12 +60,20 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_relatorio_estoque_tela.xml"
     },
     {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_button_relatorio_selector.xml.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\button_relatorio_selector.xml"
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\layout_activity_controle_caixa_tela.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_controle_caixa_tela.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_botoes.xml.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\botoes.xml"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_button_relatorio_selector.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\button_relatorio_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\layout_activity_add_conteole_produtividade.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_add_conteole_produtividade.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\layout_activity_see_all_clients.xml.flat",
@@ -100,10 +92,6 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\descricaoservico_pressed.xml"
     },
     {
-        "merged": "com.example.mecanica.app-merged_res-41:/drawable_controledecaixa_pressed.xml.flat",
-        "source": "com.example.mecanica.app-main-43:/drawable/controledecaixa_pressed.xml"
-    },
-    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\ic_launcher_foreground.xml"
     },
@@ -120,10 +108,6 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\add_carro_pressed.xml"
     },
     {
-        "merged": "com.example.mecanica.app-merged_res-41:/drawable_relatorioestoque_pressed.xml.flat",
-        "source": "com.example.mecanica.app-main-43:/drawable/relatorioestoque_pressed.xml"
-    },
-    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -132,16 +116,24 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_see_all_funcionarios.xml"
     },
     {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_main.xml"
+        "merged": "com.example.mecanica.app-merged_res-41:/layout_activity_see_all_ordem.xml.flat",
+        "source": "com.example.mecanica.app-main-43:/layout/activity_see_all_ordem.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_controledecaixa.xml.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\controledecaixa.xml"
     },
     {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_button_addcar_selector.xml.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\button_addcar_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\layout_activity_add_controle_produtivadade.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_add_controle_produtivadade.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\layout_activity_cadastrar_funcionario_tela.xml.flat",
@@ -160,12 +152,16 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\addfuncionario.xml"
     },
     {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_relatorioestoque.xml.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\relatorioestoque.xml"
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\layout_activity_criar_nova_ordem_servico.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_criar_nova_ordem_servico.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_relatorioestoque.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\relatorioestoque.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\menu_bottom_navigation_menu.xml.flat",
@@ -228,24 +224,24 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_cadastro_veiculo_tela.xml"
     },
     {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_home.xml"
-    },
-    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\layout_activity_add_peca_tela.xml.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_add_peca_tela.xml"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_home.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\layout_activity_see_all_car.xml.flat",
@@ -260,28 +256,24 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_addclientebotao.xml.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\addclientebotao.xml"
-    },
-    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_button_selector.xml.flat",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\button_selector.xml"
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_addclientebotao.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\addclientebotao.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_button_addcliente_selector.xml.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\button_addcliente_selector.xml"
     },
     {
-        "merged": "com.example.mecanica.app-merged_res-41:/drawable_avaliacao_pressed.xml.flat",
-        "source": "com.example.mecanica.app-main-43:/drawable/avaliacao_pressed.xml"
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\layout_activity_controle_produtivadade_tela.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_controle_produtivadade_tela.xml"
     },
     {
-        "merged": "com.example.mecanica.app-merged_res-41:/drawable_addcliente_pressed.xml.flat",
-        "source": "com.example.mecanica.app-main-43:/drawable/addcliente_pressed.xml"
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\layout_activity_addtable_controle_caixa.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_addtable_controle_caixa.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_borda_tabela_usuarios.xml.flat",
@@ -308,19 +300,15 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\homeicon.xml"
     },
     {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\layout_activity_see_all_ordem.xml.flat",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_see_all_ordem.xml"
+    },
+    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\drawable_button_addfuncionario_selector.xml.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\drawable\\button_addfuncionario_selector.xml"
     },
     {
-        "merged": "com.example.mecanica.app-merged_res-41:/drawable_gerenciamentoestoque_pressed.xml.flat",
-        "source": "com.example.mecanica.app-main-43:/drawable/gerenciamentoestoque_pressed.xml"
-    },
-    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-merged_res-41:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.mecanica.app-merged_res-41:/drawable_descricaoservico_pressed.xml.flat",
-        "source": "com.example.mecanica.app-main-43:/drawable/descricaoservico_pressed.xml"
     }
 ]

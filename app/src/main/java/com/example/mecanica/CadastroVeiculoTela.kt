@@ -69,7 +69,7 @@ class CadastroVeiculoTela : AppCompatActivity() {
         add = findViewById(R.id.addcarro)
 
         add.setOnClickListener {
-            val modelo: EditText = findViewById(R.id.nomecarro)
+            val modelo: EditText = findViewById(R.id.nomecarroservico)
             val placa: EditText = findViewById(R.id.plcacarro)
             val ano: EditText = findViewById(R.id.anocarro)
 

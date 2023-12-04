@@ -77,6 +77,24 @@ class home : AppCompatActivity() {
             startActivity(addfuncionario)
         }
 
+        val controlecaixa = findViewById<Button>(R.id.controleCaixa)
+        controlecaixa.setOnClickListener {
+            val controlexcaixa = Intent(this, ControleCaixaTela::class.java)
+            startActivity(controlexcaixa)
+        }
+
+        val controleprodutividade = findViewById<Button>(R.id.produtividade)
+        controleprodutividade.setOnClickListener {
+            val controleprodutividade = Intent(this, ControleProdutivadadeTela::class.java)
+            startActivity(controleprodutividade)
+        }
+
+        val ordemserivoc = findViewById<Button>(R.id.descServico)
+        ordemserivoc.setOnClickListener {
+            val ordemserivoc = Intent(this, CriarNovaOrdemServico::class.java)
+            startActivity(ordemserivoc)
+        }
+
     }
 }
 

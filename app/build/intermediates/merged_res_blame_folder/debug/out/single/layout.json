@@ -1,35 +1,51 @@
 [
     {
-        "merged": "com.example.mecanica.app-mergeDebugResources-40:/layout/activity_home.xml",
-        "source": "com.example.mecanica.app-main-43:/layout/activity_home.xml"
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_see_all_car.xml",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_see_all_car.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_relatorio_estoque_tela.xml",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_relatorio_estoque_tela.xml"
     },
     {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_see_all_car.xml",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_see_all_car.xml"
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_see_all_ordem.xml",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_see_all_ordem.xml"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_controle_produtivadade_tela.xml",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_controle_produtivadade_tela.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_cadastro_veiculo_tela.xml",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_cadastro_veiculo_tela.xml"
     },
     {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_criar_nova_ordem_servico.xml",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_criar_nova_ordem_servico.xml"
+    },
+    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_see_all_funcionarios.xml",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_see_all_funcionarios.xml"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_add_controle_produtivadade.xml",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_add_controle_produtivadade.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_addclientetela.xml",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_addclientetela.xml"
     },
     {
-        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_gerenciar_estoque_tela.xml",
-        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_gerenciar_estoque_tela.xml"
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_add_conteole_produtividade.xml",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_add_conteole_produtividade.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_main.xml",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_gerenciar_estoque_tela.xml",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_gerenciar_estoque_tela.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_add_peca_tela.xml",
@@ -40,11 +56,23 @@
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_home.xml"
     },
     {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_addtable_controle_caixa.xml",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_addtable_controle_caixa.xml"
+    },
+    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_see_all_clients.xml",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_see_all_clients.xml"
     },
     {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_controle_caixa_tela.xml",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_controle_caixa_tela.xml"
+    },
+    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_cadastrar_funcionario_tela.xml",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_cadastrar_funcionario_tela.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-mergeDebugResources-40:/layout/activity_see_all_ordem.xml",
+        "source": "com.example.mecanica.app-main-43:/layout/activity_see_all_ordem.xml"
     }
 ]

@@ -15,6 +15,27 @@
         android:theme="@style/Theme.Mecanica"
         tools:targetApi="31">
         <activity
+            android:name=".SeeAllOrdem"
+            android:exported="false" />
+        <activity
+            android:name=".CriarNovaOrdemServico"
+            android:exported="false" />
+        <activity
+            android:name=".AddConteoleProdutividade"
+            android:exported="false" />
+        <activity
+            android:name=".AddControleProdutivadade"
+            android:exported="false" />
+        <activity
+            android:name=".ControleProdutivadadeTela"
+            android:exported="false" />
+        <activity
+            android:name=".ControleProdutividadeTela"
+            android:exported="false" />
+        <activity
+            android:name=".AddtableControleCaixa"
+            android:exported="false" />
+        <activity
             android:name=".ControleCaixaTela"
             android:exported="false" />
         <activity

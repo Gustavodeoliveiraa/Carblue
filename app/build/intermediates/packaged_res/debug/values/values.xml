@@ -5,7 +5,9 @@
     <color name="buttoncinza">#E3E3E4</color>
     <color name="corLinhaImpar">#42B9B9B9</color>
     <color name="corLinhaPar">#FFFFFFFF</color>
+    <color name="odemservico">#7A96B9EE</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="card_margin_bottom">8dp</dimen>
     <item name="adicionarpeca" type="id"/>
     <string name="Senha">Senha</string>
     <string name="Usuario">Usuario</string>
