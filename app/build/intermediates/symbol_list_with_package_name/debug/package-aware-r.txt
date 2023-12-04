@@ -3559,6 +3559,7 @@ drawable produtividade
 drawable produtividade_pressed
 drawable relatorioestoque
 drawable relatorioestoque_pressed
+drawable rounded_corners
 drawable settingsicon
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3648,6 +3649,7 @@ id actions
 id activity_chooser_view_content
 id add
 id addFuncionario
+id addavaliacao
 id addcar
 id addcarro
 id addclienteclick
@@ -3669,11 +3671,13 @@ id anticipate
 id arc
 id asConfigured
 id async
+id atendente
 id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id avaliacao
+id avaliacaocliente
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -4034,6 +4038,7 @@ id neverCompleteToStart
 id noScroll
 id noState
 id nome
+id nomeavalicao
 id nomecar
 id nomecarroservico
 id nomefuncionario
@@ -4245,6 +4250,7 @@ id valor
 id vertical_only
 id vertodas
 id vertodos
+id vertodosavaliacao
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -4394,11 +4400,13 @@ layout activity_cadastrar_funcionario_tela
 layout activity_cadastro_veiculo_tela
 layout activity_controle_caixa_tela
 layout activity_controle_produtivadade_tela
+layout activity_criar_avaliacao_servico
 layout activity_criar_nova_ordem_servico
 layout activity_gerenciar_estoque_tela
 layout activity_home
 layout activity_main
 layout activity_relatorio_estoque_tela
+layout activity_se_all_avaliacoes
 layout activity_see_all_car
 layout activity_see_all_clients
 layout activity_see_all_funcionarios

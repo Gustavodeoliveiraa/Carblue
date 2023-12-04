@@ -40,16 +40,22 @@
                 android:textSize="40sp" />
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/linearLayoutCard"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="10dp"
-            >
+            android:layout_height="720dp" >
+
+            <LinearLayout
+                android:id="@+id/linearLayoutCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                >
 
 
-        </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
 
         <LinearLayout
             android:layout_width="match_parent"

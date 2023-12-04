@@ -50,11 +50,13 @@ drawable produtividade
 drawable produtividade_pressed
 drawable relatorioestoque
 drawable relatorioestoque_pressed
+drawable rounded_corners
 drawable settingsicon
 font fonte
 id Cod
 id add
 id addFuncionario
+id addavaliacao
 id addcar
 id addcarro
 id addclienteclick
@@ -62,7 +64,9 @@ id adicionarpeca
 id aicionar
 id ano
 id anocarro
+id atendente
 id avaliacao
+id avaliacaocliente
 id bottom_navigation
 id codpeca
 id concluir
@@ -84,6 +88,7 @@ id loginbutton
 id mecanico
 id modelo
 id nome
+id nomeavalicao
 id nomecar
 id nomecarroservico
 id nomefuncionario
@@ -105,6 +110,7 @@ id usertext
 id valor
 id vertodas
 id vertodos
+id vertodosavaliacao
 layout activity_add_conteole_produtividade
 layout activity_add_peca_tela
 layout activity_addclientetela
@@ -113,11 +119,13 @@ layout activity_cadastrar_funcionario_tela
 layout activity_cadastro_veiculo_tela
 layout activity_controle_caixa_tela
 layout activity_controle_produtivadade_tela
+layout activity_criar_avaliacao_servico
 layout activity_criar_nova_ordem_servico
 layout activity_gerenciar_estoque_tela
 layout activity_home
 layout activity_main
 layout activity_relatorio_estoque_tela
+layout activity_se_all_avaliacoes
 layout activity_see_all_car
 layout activity_see_all_clients
 layout activity_see_all_funcionarios

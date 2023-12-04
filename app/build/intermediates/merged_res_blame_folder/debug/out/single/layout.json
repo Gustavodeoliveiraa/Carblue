@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_criar_avaliacao_servico.xml",
+        "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_criar_avaliacao_servico.xml"
+    },
+    {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_see_all_car.xml",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_see_all_car.xml"
     },
@@ -14,6 +18,10 @@
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_controle_produtivadade_tela.xml",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_controle_produtivadade_tela.xml"
+    },
+    {
+        "merged": "com.example.mecanica.app-mergeDebugResources-40:/layout/activity_se_all_avaliacoes.xml",
+        "source": "com.example.mecanica.app-main-43:/layout/activity_se_all_avaliacoes.xml"
     },
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_cadastro_veiculo_tela.xml",
@@ -70,9 +78,5 @@
     {
         "merged": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-mergeDebugResources-40:\\layout\\activity_cadastrar_funcionario_tela.xml",
         "source": "C:\\Users\\ggu31\\.gradle\\daemon\\8.2\\com.example.mecanica.app-main-43:\\layout\\activity_cadastrar_funcionario_tela.xml"
-    },
-    {
-        "merged": "com.example.mecanica.app-mergeDebugResources-40:/layout/activity_see_all_ordem.xml",
-        "source": "com.example.mecanica.app-main-43:/layout/activity_see_all_ordem.xml"
     }
 ]

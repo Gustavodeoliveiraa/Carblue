@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:2:1-85:12
+ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:2:1-91:12
 MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\ggu31\.gradle\caches\transforms-3\7b1281fac3701180d641f6f6c48fe044\transformed\viewbinding-8.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\ggu31\.gradle\caches\transforms-3\a007a2f1af784f65d8cea792947dc36f\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\ggu31\.gradle\caches\transforms-3\2e5ee64fefe6e52839d8956607e76ab7\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:2:1-17:12
@@ -105,8 +105,8 @@ MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\ggu31\.grad
 	android:name
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:7:5-83:19
-INJECTED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:7:5-83:19
+ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:7:5-89:19
+INJECTED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:7:5-89:19
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\ggu31\.gradle\caches\transforms-3\a007a2f1af784f65d8cea792947dc36f\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\ggu31\.gradle\caches\transforms-3\a007a2f1af784f65d8cea792947dc36f\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\ggu31\.gradle\caches\transforms-3\2e5ee64fefe6e52839d8956607e76ab7\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:7:5-15:19
@@ -189,136 +189,148 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ggu31\.gradle\cach
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:15:9-46
 	android:dataExtractionRules
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:9:9-65
-activity#com.example.mecanica.SeeAllOrdem
+activity#com.example.mecanica.SeAllAvaliacoes
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:18:13-40
-activity#com.example.mecanica.CriarNovaOrdemServico
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:18:13-44
+activity#com.example.mecanica.CriarAvaliacaoServico
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:21:13-50
-activity#com.example.mecanica.AddConteoleProdutividade
+activity#com.example.mecanica.SeeAllOrdem
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:24:13-53
-activity#com.example.mecanica.AddControleProdutivadade
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:24:13-40
+activity#com.example.mecanica.CriarNovaOrdemServico
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:27:13-53
-activity#com.example.mecanica.ControleProdutivadadeTela
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:27:13-50
+activity#com.example.mecanica.AddConteoleProdutividade
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:30:13-54
-activity#com.example.mecanica.ControleProdutividadeTela
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:30:13-53
+activity#com.example.mecanica.AddControleProdutivadade
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:33:13-54
-activity#com.example.mecanica.AddtableControleCaixa
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:33:13-53
+activity#com.example.mecanica.ControleProdutivadadeTela
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:36:13-50
-activity#com.example.mecanica.ControleCaixaTela
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:36:13-54
+activity#com.example.mecanica.ControleProdutividadeTela
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:39:13-46
-activity#com.example.mecanica.SeeAllFuncionarios
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:39:13-54
+activity#com.example.mecanica.AddtableControleCaixa
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:42:13-47
-activity#com.example.mecanica.CadastrarFuncionarioTela
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:42:13-50
+activity#com.example.mecanica.ControleCaixaTela
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:45:13-53
-activity#com.example.mecanica.SeeAllCar
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:45:13-46
+activity#com.example.mecanica.SeeAllFuncionarios
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:48:13-38
-activity#com.example.mecanica.CadastroVeiculoTela
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:48:13-47
+activity#com.example.mecanica.CadastrarFuncionarioTela
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:50:9-52:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:51:13-48
-activity#com.example.mecanica.RelatorioEstoqueTela
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:51:13-53
+activity#com.example.mecanica.SeeAllCar
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:53:9-55:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:54:13-49
-activity#com.example.mecanica.GerenciarEstoqueTela
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:54:13-38
+activity#com.example.mecanica.CadastroVeiculoTela
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:56:9-58:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:57:13-49
-activity#com.example.mecanica.AddPecaTela
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:57:13-48
+activity#com.example.mecanica.RelatorioEstoqueTela
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:59:9-61:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:61:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:60:13-40
-activity#com.example.mecanica.GerEstoqueTela
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:60:13-49
+activity#com.example.mecanica.GerenciarEstoqueTela
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:62:9-64:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:64:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:63:13-43
-activity#com.example.mecanica.seeAllClients
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:63:13-49
+activity#com.example.mecanica.AddPecaTela
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:65:9-67:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:67:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:66:13-42
-activity#com.example.mecanica.addclientetela
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:66:13-40
+activity#com.example.mecanica.GerEstoqueTela
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:68:9-70:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:70:13-37
 	android:name
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:69:13-43
-activity#com.example.mecanica.home
+activity#com.example.mecanica.seeAllClients
 ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:71:9-73:40
 	android:exported
 		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:73:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:72:13-33
-activity#com.example.mecanica.MainActivity
-ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:74:9-82:20
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:72:13-42
+activity#com.example.mecanica.addclientetela
+ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:74:9-76:40
 	android:exported
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:76:13-36
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:76:13-37
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:75:13-41
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:75:13-43
+activity#com.example.mecanica.home
+ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:77:9-79:40
+	android:exported
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:79:13-37
+	android:name
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:78:13-33
+activity#com.example.mecanica.MainActivity
+ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:80:9-88:20
+	android:exported
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:82:13-36
+	android:name
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:81:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:77:13-81:29
+ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:83:13-87:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:78:17-69
+ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:84:17-69
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:78:25-66
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:84:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:80:17-77
+ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:86:17-77
 	android:name
-		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:80:27-74
+		ADDED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml:86:27-74
 uses-sdk
 INJECTED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\ggu31\AndroidStudioProjects\Mecanica2\app\src\main\AndroidManifest.xml

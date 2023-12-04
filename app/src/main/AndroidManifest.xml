@@ -15,6 +15,12 @@
         android:theme="@style/Theme.Mecanica"
         tools:targetApi="31">
         <activity
+            android:name=".SeAllAvaliacoes"
+            android:exported="false" />
+        <activity
+            android:name=".CriarAvaliacaoServico"
+            android:exported="false" />
+        <activity
             android:name=".SeeAllOrdem"
             android:exported="false" />
         <activity

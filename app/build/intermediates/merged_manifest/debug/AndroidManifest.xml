@@ -48,6 +48,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.Mecanica" >
         <activity
+            android:name="com.example.mecanica.SeAllAvaliacoes"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mecanica.CriarAvaliacaoServico"
+            android:exported="false" />
+        <activity
             android:name="com.example.mecanica.SeeAllOrdem"
             android:exported="false" />
         <activity

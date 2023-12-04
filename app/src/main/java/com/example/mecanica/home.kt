@@ -95,6 +95,12 @@ class home : AppCompatActivity() {
             startActivity(ordemserivoc)
         }
 
+        val avalicao = findViewById<Button>(R.id.avaliacao)
+        avalicao.setOnClickListener {
+            val avalicao = Intent(this, CriarAvaliacaoServico::class.java)
+            startActivity(avalicao)
+        }
+
     }
 }
 

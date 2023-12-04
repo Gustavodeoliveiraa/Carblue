@@ -1,5 +1,6 @@
 package com.example.mecanica
 
+import android.content.Intent
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.os.Bundle
@@ -7,11 +8,14 @@ import android.view.Gravity
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class SeeAllOrdem : AppCompatActivity() {
 
     private lateinit var database: SQLiteDatabase
     private lateinit var linearLayout: LinearLayout
+    private lateinit var bottomNavigationView: BottomNavigationView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,8 +26,37 @@ class SeeAllOrdem : AppCompatActivity() {
         linearLayout = findViewById(R.id.linearLayoutCard)
 
         // Fetch data from the database and create TextViews dynamically
+
+        bottomNavigationView = findViewById(R.id.bottom_navigation)
+
+        bottomNavigationView.setOnItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.home -> {
+                    val home = Intent(this, home::class.java)
+                    startActivity(home)
+                    true
+                }
+
+                R.id.exit -> {
+                    val exit = Intent(this, MainActivity::class.java)
+                    startActivity(exit)
+                    true
+
+                }
+
+                R.id.settings -> {
+                    println("settings")
+                    true
+                }
+
+
+                else -> false
+            }
+        }
+
         fetchDataAndDisplay()
     }
+
 
     private fun fetchDataAndDisplay() {
         val cursor: Cursor = database.rawQuery("SELECT * FROM ordemdeservico", null)
@@ -40,12 +73,14 @@ class SeeAllOrdem : AppCompatActivity() {
             )
 
             // Adiciona margem inferior aos cards, exceto para o último
-            layoutParams.bottomMargin = 16 // Ajuste o valor conforme necessário
+            layoutParams.bottomMargin = 35 // Ajuste o valor conforme necessário
 
             val childLayout = LinearLayout(this)
             childLayout.orientation = LinearLayout.VERTICAL
             childLayout.layoutParams = layoutParams
-            childLayout.setBackgroundResource(R.color.odemservico)
+
+            // Use o arquivo XML como fundo para o LinearLayout (cards)
+            childLayout.background = ContextCompat.getDrawable(this, R.drawable.rounded_corners)
 
             // Layout horizontal para Carro e Placa
             val carPlacaLayout = LinearLayout(this)
